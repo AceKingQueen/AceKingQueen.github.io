@@ -1,0 +1,139 @@
+*{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	box-sizing: border-box; 
+}
+
+/* Background pattern from Subtle Patterns */
+
+header {
+	background: #fff;
+	margin-top: 0;
+	height: 90px;
+	border-bottom: 2px solid #777;
+	width: 100%;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body {
+	background-image: url("images/dust_scratches.png");
+}
+
+#myName {
+	background: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	text-align: center;
+    width: 33%;
+    height: 100%;
+	font-size: 24px; 
+	padding-top: 3%;
+	padding-bottom: 2%;
+	font-weight: 900;
+	float : left;
+}
+
+nav {
+	color: #777;
+	float: right;
+	margin: 25px;
+    font-size: 14px;	
+}
+
+
+#about, #portfolio, #contact {
+	display: inline;
+	border-right: #777 solid 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+	
+}
+
+
+a:hover {
+	color: pink;
+}
+
+body {
+    background-image: url("images/dust_scratches.png");
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.aboutMe {
+    background: #fff;
+    width: 650px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    float: left;
+}
+
+#headShot {
+    width: 40%;
+    height: 60%;
+    padding: 20px 20px 20px 0px;
+}
+
+
+p {
+    display: inline;
+}
+    
+
+.connect {
+	background: #fff;
+    width: 270px; 
+    margin-top: 5%;
+	padding: 20px;
+    float: right;
+}
+
+
+h1 {
+	color: #4aaaa5;
+	border-bottom: #777 2px solid; 
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.5em;
+	font-weight: 900;
+	padding-bottom: 20px; 
+}
+
+
+h3 {
+	color: #4aaaa5;
+	border-bottom: #777 2px solid; 
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: 900;
+	font-size: 1.25em;
+	padding-bottom: 10px;
+}
+
+
+#gitHub {
+	padding-right: 3px;
+}
+
+
+#linkedIn {
+	padding-right: 3px;
+}
+
+
+#stackOverflow {
+	height: 62px;
+	width: 62px;
+}
+
+
+footer {
+	overflow: auto;
+	clear: both;
+	text-align: center;
+	background: #777;
+	color: #fff;
+	border-top: 8px #4aaaa5 solid;
+	padding: 40px; 
+	font-size: 10px;
+}
